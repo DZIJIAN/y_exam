@@ -1,23 +1,15 @@
-# 追风考试系统 
-[![star](https://gitee.com/wzhouzhou/exam_system/badge/star.svg?theme=dark)](https://gitee.com/wzhouzhou/exam_system/stargazers)[![fork](https://gitee.com/wzhouzhou/exam_system/badge/fork.svg?theme=white)](https://gitee.com/wzhouzhou/exam_system/members)
+# Y考试系统 
 
-[![Fork me on Gitee](https://gitee.com/wzhouzhou/exam_system/widgets/widget_4.svg?color=d716f0)](https://gitee.com/wzhouzhou/exam_system)
-
-追风考试系统是一个多角色在线培训考试系统，系统集成了用户管理、角色管理、题库管理、试
+Y校园考试系统是一个多角色在线培训考试系统，系统集成了用户管理、角色管理、题库管理、试
 
 题管理、考试管理、在线考试等功能，考试流程完善。实现一整套完整体系的考试系统，方便用
 
 户在此系统中进行练习并不断提升自己，在考试中不断进步。
 
-`请务必将文档看完, 很多问题都可以在文档中找到解决, 也可以加入群一起交流, 群号: 970804317 下面也会有二维码`
-- # [ :point_right: 线上体验](http://exam.wzzz.fun)
-``` 
-   管理员账号: wzz 
+   管理员账号: dzj
    密码: 12345
-   Tips: 为了各位有良好的体验,请不要更改演示账号的权限以及地址, 如账号异常,请加q群970804317私信群主~!
-```
-- [码云地址](https://gitee.com/wzhouzhou/exam_system)
-- [Github地址]()
+
+- [码云地址](https://gitee.com/qingtianyouzai/y_exam_system)
 
 ## 更新记录
 
