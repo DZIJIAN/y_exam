@@ -8,7 +8,7 @@ Y校园考试系统是一个多角色在线培训考试系统，系统集成了�
 
    管理员账号: dzj
    密码: 12345
-
+- [演示地址](http://8.130.9.50/)
 - [码云地址](https://gitee.com/qingtianyouzai/y_exam_system)
 
 ## 技术栈
