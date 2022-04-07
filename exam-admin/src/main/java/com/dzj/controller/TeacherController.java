@@ -5,6 +5,7 @@ import com.dzj.entity.Question;
 import com.dzj.entity.QuestionBank;
 import com.dzj.service.*;
 import com.dzj.utils.OSSUtil;
+import com.dzj.utils.QiniuUtil;
 import com.dzj.utils.SaveUtil;
 import com.dzj.vo.*;
 import io.swagger.annotations.Api;
@@ -110,10 +111,18 @@ public class TeacherController {
     })
     public CommonResult<String> uploadQuestionImage(MultipartFile file) throws Exception {
         log.info("开始上传文件: {}", file.getOriginalFilename());
+        //阿里云oss
         /*return CommonResult.<String>builder()
                 .data(OSSUtil.picOSS(file))
                 .message("上传成功")
                 .build();*/
+        //七牛云oss
+        /*return CommonResult.<String>builder()
+                .data(QiniuUtil.uploadQiniu(file))
+                .message("上传成功")
+                .build();*/
+
+        //本地目录
         return CommonResult.<String>builder()
                 .data(SaveUtil.save(file))
                 .message("上传成功")

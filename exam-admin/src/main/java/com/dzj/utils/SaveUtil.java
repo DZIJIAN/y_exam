@@ -13,7 +13,7 @@ import java.util.UUID;
 public class SaveUtil {
 
     //设置上传目录
-    public static String deposeFilesDir = "G://ssmShopFile";
+    public static String deposeFilesDir = "G://examFile";
 
     //上传文件到本地目录
     public static String save(MultipartFile uploadFile) throws IOException {
