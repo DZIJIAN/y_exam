@@ -1,4 +1,4 @@
-package com.dzj.Interceptor;
+package com.dzj.security.Interceptor;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
