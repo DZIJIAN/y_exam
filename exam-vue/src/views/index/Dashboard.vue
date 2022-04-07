@@ -2,13 +2,14 @@
   <el-scrollbar :native="false" style="height: 100%">
     <div>
       <h1 class="title">
-        <a href="https://gitee.com/qingtianyouzai/y_exam_system" target="_blank">Y校园考试系统</a>
+        <a href="https://gitee.com/wzhouzhou/exam_system" target="_blank">Y校园考试系统</a>
       </h1>
 
       <el-row>
         <el-col :span="15" :offset="5">
-          <h3>1、其他项目:</h3>
+          <h3>1、推荐项目:</h3>
           <ul>
+            <li><a href="https://gitee.com/wzhouzhou/vue_wzz_cloudMusic" target="_blank">高仿网易云音乐</a></li>
             <li><a href="https://gitee.com/wzhouzhou/privateBlog" target="_blank">博客系统</a></li>
           </ul>
           <h3>2、系统描述:</h3>
