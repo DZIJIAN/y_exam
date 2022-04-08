@@ -94,7 +94,7 @@ const changeCode = () => {
 
 // 表单信息提交
 const register = (formEl) => {
-  utils.validFormAndbuyoInvoke(formEl, () => {
+  utils.validFormAndInvoke(formEl, () => {
     auth.register(registerForm).then(resp => {
       if (resp.code === 200) {
         localStorage.setItem('authorization', resp.data)
